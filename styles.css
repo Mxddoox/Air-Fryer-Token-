@@ -1,6 +1,6 @@
 /* General Styles */
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Comic Neue', cursive;
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
@@ -37,7 +37,7 @@ header .tagline {
 
 /* Hero Section */
 .hero {
-  background: url('airfryer-bg.jpg') no-repeat center center/cover;
+  background: url('https://i.imgur.com/xyz1234.jpg') no-repeat center center/cover; /* Add a crispy background image */
   color: white;
   padding: 100px 0;
   text-align: center;
@@ -68,10 +68,51 @@ header .tagline {
   background-color: #e65c00;
 }
 
+/* Game Section */
+.game {
+  padding: 60px 0;
+  background-color: white;
+  text-align: center;
+}
+
+.game h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.game p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.game-container {
+  display: flex;
+  justify-content: center;
+}
+
+.air-fryer {
+  cursor: pointer;
+  transition: transform 0.1s;
+}
+
+.air-fryer:active {
+  transform: scale(0.95);
+}
+
+.fryer-img {
+  width: 100px;
+  height: 100px;
+}
+
+#fry-count {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
 /* About Section */
 .about {
   padding: 60px 0;
-  background-color: white;
+  background-color: #f4f4f4;
 }
 
 .about h2 {
@@ -101,28 +142,6 @@ header .tagline {
 .feature p {
   font-size: 1rem;
   color: #666;
-}
-
-/* Buy Section */
-.buy {
-  padding: 60px 0;
-  background-color: #f4f4f4;
-  text-align: center;
-}
-
-.buy h2 {
-  font-size: 2rem;
-  margin-bottom: 20px;
-}
-
-.buy ol {
-  text-align: left;
-  max-width: 600px;
-  margin: 0 auto 30px;
-}
-
-.buy ol li {
-  margin-bottom: 10px;
 }
 
 /* Footer */
